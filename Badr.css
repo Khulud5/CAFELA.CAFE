@@ -1,0 +1,30 @@
+@media (max-width:600px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+.page1, .page2{
+    height: auto;
+    width: 100%;
+    background-image: url(./images/page1.svg)center center/cover no-repeat;
+    position: relative;
+    text-align: center;
+    display: block;
+    background-color:#bea89b;
+}
+.footer1,.footer2{
+    color: rgb(251, 249, 248);
+    background-color:#bea89b;
+    display: flex;
+    padding-left: 68px;
+    height: 30px;
+    align-items: center;
+}
+
+}
